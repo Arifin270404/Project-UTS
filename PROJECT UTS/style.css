@@ -1,0 +1,104 @@
+body{
+	background: url(HD.jpg);
+	background-size: 900px;
+	width:90%;
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+	width: 90%;
+	margin: auto;
+	height: 100px;
+	line-height: 120px;
+	background: linear-gradient(black,grey);
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0px black;
+	color: white;
+}
+
+.header img{
+position: relative;
+float: left;
+width: 100px;
+height: 100px;
+
+}
+
+
+.menu{
+	background: linear-gradient(black,grey);
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0px black;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+.menu ul {
+	list-style: none;
+}
+.menu ul li a {
+	float: left;
+	width: 120px;
+	display: block;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.menu ul li a:hover {
+	background-color: #23a2f6;
+	border-radius: 10px;
+	display: block;
+}
+
+.content{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	height: 100%;
+	padding: 0.1px;
+	border-radius: 10px;
+	color: white;
+}
+.content2{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	height: 100%;
+	border-radius: 10px;
+	color: white
+}
+
+.content3 {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+.sw{
+	font-size: 20px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    font: bold;
+    font-family: cursive;
+}
